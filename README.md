@@ -1,1 +1,1 @@
-chnaged my git account 
+chnaged my git account

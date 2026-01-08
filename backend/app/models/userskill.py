@@ -1,0 +1,11 @@
+from sqlalchemy import Column, Integer, ForeignKey
+from app.database import Base
+
+
+class UserSkill(Base):
+    __tablename__ = "user_skills"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    skill_id = Column(Integer, ForeignKey("skills.id"), nullable=False)
+    self_rating = Column(Integer, nullable=False)  # 1 to 10

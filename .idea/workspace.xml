@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5a8f2d-8807-4dc8-86a7-d917edd4cac7" name="Changes" comment="Add Skill and UserSkill database tables and inluded requirements.txt file">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/api/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/schemas/user.py" afterDir="false" />
+    <list default="true" id="1c5a8f2d-8807-4dc8-86a7-d917edd4cac7" name="Changes" comment="Added User in API to perform insert and fetch data">
+      <change afterPath="$PROJECT_DIR$/backend/app/api/skill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/schemas/skill.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/api/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/api/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +124,9 @@
       <workItem from="1767603954038" duration="2896000" />
       <workItem from="1767636921258" duration="4660000" />
       <workItem from="1767847380970" duration="5327000" />
-      <workItem from="1768014449957" duration="4790000" />
+      <workItem from="1768014449957" duration="6390000" />
+      <workItem from="1768194851642" duration="596000" />
+      <workItem from="1768282313562" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <option name="closed" value="true" />
@@ -154,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767852260257</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added User in API to perform insert and fetch data">
+      <option name="closed" value="true" />
+      <created>1768193537001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768193537002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +196,8 @@
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="implementd Database and created user table" />
     <MESSAGE value="Add Skill and UserSkill database tables and inluded requirements.txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Skill and UserSkill database tables and inluded requirements.txt file" />
+    <MESSAGE value="Added User in API to perform insert and fetch data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User in API to perform insert and fetch data" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

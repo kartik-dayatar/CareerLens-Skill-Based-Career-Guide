@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5a8f2d-8807-4dc8-86a7-d917edd4cac7" name="Changes" comment="Added User in API to perform insert and fetch data">
-      <change afterPath="$PROJECT_DIR$/backend/app/api/skill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/schemas/skill.py" afterDir="false" />
+    <list default="true" id="1c5a8f2d-8807-4dc8-86a7-d917edd4cac7" name="Changes" comment="Added skill API and perform CRUD operation">
+      <change afterPath="$PROJECT_DIR$/backend/app/api/userskill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/schemas/userskill.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/api/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/api/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/schemas/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,10 @@
       <workItem from="1767847380970" duration="5327000" />
       <workItem from="1768014449957" duration="6390000" />
       <workItem from="1768194851642" duration="596000" />
-      <workItem from="1768282313562" duration="302000" />
+      <workItem from="1768282313562" duration="593000" />
+      <workItem from="1768453435397" duration="3055000" />
+      <workItem from="1768547239630" duration="873000" />
+      <workItem from="1768625227776" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <option name="closed" value="true" />
@@ -160,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768193537002</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added skill API and perform CRUD operation">
+      <option name="closed" value="true" />
+      <created>1768282852879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768282852880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +208,8 @@
     <MESSAGE value="implementd Database and created user table" />
     <MESSAGE value="Add Skill and UserSkill database tables and inluded requirements.txt file" />
     <MESSAGE value="Added User in API to perform insert and fetch data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User in API to perform insert and fetch data" />
+    <MESSAGE value="Added skill API and perform CRUD operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added skill API and perform CRUD operation" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

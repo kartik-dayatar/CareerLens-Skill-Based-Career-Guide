@@ -67,14 +67,3 @@ def recommend_roles(user_skills: dict):
 
     return recommendations
 
-if __name__ == "__main__":
-    user_skills = {
-        "Python": 8,
-        "SQL": 7,
-        "Statistics": 5
-    }
-
-    result = recommend_roles(user_skills)
-    for r in result:
-        print(r)
-

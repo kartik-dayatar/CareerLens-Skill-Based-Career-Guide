@@ -25,6 +25,12 @@ ROLES = {
         }
     }
 }
+ROLE_SALARY = {
+    "Data Analyst": "5–9 LPA",
+    "ML Engineer": "7–14 LPA",
+    "Backend Developer": "6–12 LPA"
+}
+
 
 def recommend_roles(user_skills: dict):
     """
@@ -59,7 +65,8 @@ def recommend_roles(user_skills: dict):
         recommendations.append({
             "role": role,
             "match_score": match_score,
-            "missing_skills": skill_gaps
+            "skill_gap_message": f"Improve {', '.join(skill_gaps)} to qualify for this role",
+            "salary_range": ROLE_SALARY.get(role, "N/A")
         })
 
     # Sort by match score (highest first)

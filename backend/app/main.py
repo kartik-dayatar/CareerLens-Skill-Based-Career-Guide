@@ -13,8 +13,6 @@ Skill.metadata.create_all(bind=engine)
 UserSkill.metadata.create_all(bind=engine)
 
 
-
-
 app.include_router(user_router)
 app.include_router(skill_router)
 app.include_router(userskill_router)

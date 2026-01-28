@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c5a8f2d-8807-4dc8-86a7-d917edd4cac7" name="Changes" comment="Add role recommendation logic and API">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/core/role_recommender.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/core/role_recommender.py" afterDir="false" />
+    <list default="true" id="1c5a8f2d-8807-4dc8-86a7-d917edd4cac7" name="Changes" comment="Enhance role recommendations with salary and skill gap insights">
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Skills.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/models/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1768626872252" duration="3513000" />
       <workItem from="1768838349168" duration="6532000" />
       <workItem from="1769144764697" duration="750000" />
-      <workItem from="1769489138755" duration="1338000" />
+      <workItem from="1769489138755" duration="8125000" />
     </task>
     <task id="LOCAL-00001" summary="Initial project setup">
       <option name="closed" value="true" />
@@ -233,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768842038928</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Enhance role recommendations with salary and skill gap insights">
+      <option name="closed" value="true" />
+      <created>1769490509323</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1769490509323</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +280,8 @@
     <MESSAGE value="Added skill API and perform CRUD operation" />
     <MESSAGE value="Add UserSkill API to assign skills to users" />
     <MESSAGE value="Add role recommendation logic and API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add role recommendation logic and API" />
+    <MESSAGE value="Enhance role recommendations with salary and skill gap insights" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance role recommendations with salary and skill gap insights" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CareerLens_Skill_Based_Career_Guide$role_recommender.coverage" NAME="role_recommender Coverage Results" MODIFIED="1768840902596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/app/core" />

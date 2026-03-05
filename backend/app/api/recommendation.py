@@ -6,6 +6,8 @@ from app.models.userskill import UserSkill
 from app.models.skill import Skill
 from app.core.role_recommender import recommend_roles
 
+
+
 router = APIRouter(prefix="/recommendations", tags=["Recommendations"])
 
 

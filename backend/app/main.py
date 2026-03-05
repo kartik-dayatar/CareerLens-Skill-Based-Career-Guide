@@ -1,26 +1,21 @@
 from fastapi import FastAPI
-from app.database import engine
+from fastapi.middleware.cors import CORSMiddleware
+from app.database import engine, Base
 from app.models import User, Skill, UserSkill
 from app.api.user import router as user_router
 from app.api.skill import router as skill_router
 from app.api.userskill import router as userskill_router
 from app.api.recommendation import router as recommendation_router
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-User.metadata.create_all(bind=engine)
-Skill.metadata.create_all(bind=engine)
-UserSkill.metadata.create_all(bind=engine)
-
+# Create all tables
+Base.metadata.create_all(bind=engine)
 
 app.include_router(user_router)
 app.include_router(skill_router)
 app.include_router(userskill_router)
 app.include_router(recommendation_router)
-
-
-from fastapi import FastAPI
 
 
 
